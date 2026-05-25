@@ -7,8 +7,8 @@ export async function GET(_, { params }) {
     if (!todo) {
         return Response.json({ error: `${id} there is no Todo have.`, status: 404 })
     }
-    return Response.json(todo)
-}
+    return Response.json(todo)  // cheak git 
+}    
 
 
 export async function PUT(Request, { params }) {
